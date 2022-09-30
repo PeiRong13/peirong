@@ -1,0 +1,22 @@
+	小note
+1.	String
+①.	cin.get() - 讀取下一個字元
+②.	cin.peek() - 偷看即將要輸入的東西
+③.	cin.getline() - 讀取整行 -cin.getline( 字元陣列, 最多字元數 )
+④.	strlen(放入string名) - 得到字串長度
+⑤.	strcmp(str1,s) - 比較字典順序
+2.	Vector (vector函式庫)
+①.	初始化:vector <int> v
+②.	v.push_back(1) – 加入1
+③.	v2=v1 => v2(v1)
+④.	push_back：把元素加到尾巴，必要時會進行記憶體配置
+⑤.	pop_back：移除尾巴的元素
+3.	#define 識別名稱 代換標記
+Eg. #define MAX 32767
+#define IOU "I love you!"
+4.	使用const定義的變數，不能再重新設值：
+5.	sort(arr,arr+n)
+6.	reverse(str1.begin(),str1.end()) (string函式庫)
+7.	pointer 
+①.	int *ptr
+②.	ptr = &a
