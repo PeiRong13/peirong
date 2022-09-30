@@ -2,8 +2,8 @@
 using namespace std;
 int main()
 {
-	int a[5];//¤¤¼ú 
-	int r[5];//§I¼ú
+	int a[5];//ï¿½ï¿½ï¿½ï¿½ 
+	int r[5];//ï¿½Iï¿½ï¿½
 	int count = 0;
 	for(int i = 0; i < 5; i++)
 	{

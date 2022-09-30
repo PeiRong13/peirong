@@ -5,7 +5,7 @@ int main()
 	int n;
 	while(cin >> n)
 	{ 
-		for (int i = 0; i < n; i++) //¤W¥b³¡         
+		for (int i = 0; i < n; i++) //ä¸ŠåŠéƒ¨         
 		{
 			for (int j = 0; j<(n - 1 - i); j++)          
 			{
@@ -21,7 +21,7 @@ int main()
 			}
 			cout << endl;
 		}
-		for (int i = 0; i < n - 1; i++)//¤U¥b³¡ 
+		for (int i = 0; i < n - 1; i++)//ä¸‹åŠéƒ¨ 
 		{
 			for (int j = 0; j < i + 1; j++)           
 			{
@@ -39,4 +39,3 @@ int main()
 	} 
 	return 0;
 }
-
