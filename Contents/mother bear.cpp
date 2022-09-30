@@ -19,7 +19,7 @@ int main()
 	    str1.erase(remove(str1.begin(), str1.end(), '.'), str1.end());
 	    str1.erase(remove(str1.begin(), str1.end(), '?'), str1.end());
 	    str1.erase(remove(str1.begin(), str1.end(), '!'), str1.end());
-		//¤£­n¦LªÅ¥Õ¡B¼ĞÂI²Å¸¹
+		//ä¸è¦å°ç©ºç™½ã€æ¨™é»ç¬¦è™Ÿ
 		str2 += str1;
 		reverse(str1.begin(),str1.end());
 		if(str1 == str2)
